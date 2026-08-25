@@ -11,7 +11,7 @@ USE classicmodels;
 SELECT productCode, 
        productName, 
        quantityInStock,
-       ROUND((quantityInStock / (SELECT SUM(quantityInStock) FROM products)) * 100, 2) AS stockPercentage
+       ROUND((quantityInStock / 555131) * 100, 2) AS stockPercentage
 FROM products
-WHERE quantityInStock > (SELECT AVG(quantityInStock) FROM products)
+WHERE quantityInStock > 5046.6455
 ORDER BY stockPercentage DESC;
