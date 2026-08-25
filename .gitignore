@@ -1,0 +1,10 @@
+# Large SQL backup files
+employees_backup.sql
+classicmodels_backup.sql
+
+# Directories
+test_db/
+temp_txt/
+
+# OS files
+.DS_Store
